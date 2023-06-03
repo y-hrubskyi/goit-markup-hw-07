@@ -22,7 +22,7 @@
   <body>
     <!-- HEADER -->
     <header class="page-header">
-      <div class="page-header-container container">
+      <div class="container page-header-container">
         <nav class="page-nav">
           <a class="logo link" href="./index.html">
             Web<span class="logo-header">Studio</span>
@@ -39,7 +39,7 @@
               </a>
             </li>
             <li class="site-nav-list-item">
-              <a class="site-nav-link link" href="">Contacts</a>
+              <a class="site-nav-link link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -57,6 +57,108 @@
             </li>
           </ul>
         </address>
+        <!-- Mobile menu btn open -->
+        <button class="mobile-menu-open-btn js-open-menu" type="button">
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-mobile-menu-btn"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close-btn js-close-menu" type="button">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-site-nav-list list">
+            <li>
+              <a
+                class="mobile-menu-site-nav-link current link"
+                href="./index.html"
+              >
+                Studio
+              </a>
+            </li>
+            <li>
+              <a class="mobile-menu-site-nav-link link" href="./portfolio.html">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a class="mobile-menu-site-nav-link link" href="#">Contacts</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu-contacts-list list">
+            <li class="mobile-menu-contacts-list-item tel">
+              <a
+                class="mobile-menu-contacts-link-tel link"
+                href="tel:+110001111111"
+              >
+                +11 (000) 111-11-11
+              </a>
+            </li>
+            <li class="mobile-menu-contacts-list-item">
+              <a
+                class="mobile-menu-contacts-link-mail link"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="mobile-menu-social-media-list list">
+            <li class="social-media-list-item">
+              <a class="social-media-link link" href="">
+                <svg
+                  class="social-media-icon"
+                  width="24"
+                  height="24"
+                  aria-label="Instagram icon"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-list-item">
+              <a class="social-media-link link" href="">
+                <svg
+                  class="social-media-icon"
+                  width="24"
+                  height="24"
+                  aria-label="Twitter icon"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-list-item">
+              <a class="social-media-link link" href="">
+                <svg
+                  class="social-media-icon"
+                  width="24"
+                  height="24"
+                  aria-label="Facebook icon"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-list-item">
+              <a class="social-media-link link" href="">
+                <svg
+                  class="social-media-icon"
+                  width="24"
+                  height="24"
+                  aria-label="Linkedin icon"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -131,28 +233,76 @@
           <h2 class="section-title">What are we doing</h2>
           <ul class="gallery-list list">
             <li class="gallery-list-item">
-              <img
-                src="./images/gallery/img-1.jpg"
-                alt="Desktop application"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/gallery/img-1.webp    1x,
+                    ./images/gallery/img-1@2x.webp 2x,
+                    ./images/gallery/img-1@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/gallery/img-1.jpg    1x,
+                    ./images/gallery/img-1@2x.jpg 2x,
+                    ./images/gallery/img-1@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/gallery/img-1.jpg"
+                  alt="Desktop application"
+                />
+              </picture>
             </li>
             <li class="gallery-list-item">
-              <img
-                src="./images/gallery/img-2.jpg"
-                alt="Mobile application"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/gallery/img-2.webp    1x,
+                    ./images/gallery/img-2@2x.webp 2x,
+                    ./images/gallery/img-2@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/gallery/img-2.jpg    1x,
+                    ./images/gallery/img-2@2x.jpg 2x,
+                    ./images/gallery/img-2@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/gallery/img-2.jpg"
+                  alt="Mobile application"
+                />
+              </picture>
             </li>
             <li class="gallery-list-item">
-              <img
-                src="./images/gallery/img-3.jpg"
-                alt="Mobile and desktop application"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/gallery/img-3.webp    1x,
+                    ./images/gallery/img-3@2x.webp 2x,
+                    ./images/gallery/img-3@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/gallery/img-3.jpg    1x,
+                    ./images/gallery/img-3@2x.jpg 2x,
+                    ./images/gallery/img-3@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/gallery/img-3.jpg"
+                  alt="Mobile and desktop application"
+                />
+              </picture>
             </li>
           </ul>
         </div>
@@ -163,12 +313,28 @@
           <h2 class="section-title">Our Team</h2>
           <ul class="employees-list list">
             <li class="employees-list-item">
-              <img
-                src="./images/employees/mark-guerrero.jpg"
-                alt="Mark Guerrero's photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/mark-guerrero.webp    1x,
+                    ./images/employees/mark-guerrero@2x.webp 2x,
+                    ./images/employees/mark-guerrero@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/mark-guerrero.jpg    1x,
+                    ./images/employees/mark-guerrero@2x.jpg 2x,
+                    ./images/employees/mark-guerrero@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/employees/mark-guerrero.jpg"
+                  alt="Mark Guerrero's photo"
+                />
+              </picture>
               <div class="employee-data">
                 <h3 class="employee-name">Mark Guerrero</h3>
                 <p class="employee-position">Product Designer</p>
@@ -225,12 +391,29 @@
               </div>
             </li>
             <li class="employees-list-item">
-              <img
-                src="./images/employees/tom-ford.jpg"
-                alt="Tom Ford's photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/tom-ford.webp    1x,
+                    ./images/employees/tom-ford@2x.webp 2x,
+                    ./images/employees/tom-ford@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/tom-ford.jpg    1x,
+                    ./images/employees/tom-ford@2x.jpg 2x,
+                    ./images/employees/tom-ford@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/employees/tom-ford.jpg"
+                  alt="Tom Ford's photo"
+                />
+              </picture>
+
               <div class="employee-data">
                 <h3 class="employee-name">Tom Ford</h3>
                 <p class="employee-position">Frontend Developer</p>
@@ -287,12 +470,28 @@
               </div>
             </li>
             <li class="employees-list-item">
-              <img
-                src="./images/employees/camila-garcia.jpg"
-                alt="Camila Garcia's photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/camila-garcia.webp    1x,
+                    ./images/employees/camila-garcia@2x.webp 2x,
+                    ./images/employees/camila-garcia@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/camila-garcia.jpg    1x,
+                    ./images/employees/camila-garcia@2x.jpg 2x,
+                    ./images/employees/camila-garcia@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/employees/camila-garcia.jpg"
+                  alt="Camila Garcia's photo"
+                />
+              </picture>
               <div class="employee-data">
                 <h3 class="employee-name">Camila Garcia</h3>
                 <p class="employee-position">Marketing</p>
@@ -349,12 +548,28 @@
               </div>
             </li>
             <li class="employees-list-item">
-              <img
-                src="./images/employees/daniel-wilson.jpg"
-                alt="Daniel Wilson's photo"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/daniel-wilson.webp    1x,
+                    ./images/employees/daniel-wilson@2x.webp 2x,
+                    ./images/employees/daniel-wilson@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/daniel-wilson.jpg    1x,
+                    ./images/employees/daniel-wilson@2x.jpg 2x,
+                    ./images/employees/daniel-wilson@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/employees/daniel-wilson.jpg"
+                  alt="Daniel Wilson's photo"
+                />
+              </picture>
               <div class="employee-data">
                 <h3 class="employee-name">Daniel Wilson</h3>
                 <p class="employee-position">UI Designer</p>
@@ -668,6 +883,13 @@
       </div>
     </div>
     <!-- SCRIPTS -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
