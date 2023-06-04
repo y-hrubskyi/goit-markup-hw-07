@@ -341,6 +341,12 @@ img {
 .mobile-menu-container {
   position: relative;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: 428px;
+  height: 100%;
   padding-top: 80px;
   padding-right: 35px;
   padding-bottom: 40px;
@@ -384,7 +390,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 284px;
 }
 
 .mobile-menu-site-nav-link {
@@ -406,6 +411,10 @@ img {
 .mobile-menu-site-nav-link:focus {
   color: var(--active-color);
 }
+
+/* .mobile-menu-contacts {
+  margin-top: auto;
+} */
 
 .mobile-menu-contacts-list {
   margin-bottom: 48px;
@@ -483,32 +492,33 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
+  max-width: 428px;
 }
 
-@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
-  screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
-  screen and (max-width: 767px) and (min-resolution: 192dpi),
-  screen and (max-width: 767px) and (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url('../images/hero/bg-mobile@2x.jpg');
+@media screen and (max-width: 428px) {
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/hero/bg-mobile@2x.jpg');
+    }
   }
-}
-
-@media screen and (max-width: 767px) and (min-device-pixel-ratio: 3),
-  screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3),
-  screen and (max-width: 767px) and (min-resolution: 288dpi),
-  screen and (max-width: 767px) and (min-resolution: 3dppx) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url('../images/hero/bg-mobile@3x.jpg');
+  @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/hero/bg-mobile@3x.jpg');
+    }
   }
 }
 
@@ -546,13 +556,14 @@ img {
   background-color: var(--active-color);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 429px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/hero/bg-tablet.jpg');
+    max-width: 768px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -580,7 +591,9 @@ img {
         url('../images/hero/bg-tablet@3x.jpg');
     }
   }
+}
 
+@media screen and (min-width: 768px) {
   .hero-title {
     max-width: 496px;
     margin-bottom: 36px;
@@ -590,16 +603,14 @@ img {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 769px) {
   .hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
-
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/hero/bg-desktop.jpg');
+    max-width: 1158px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -626,6 +637,14 @@ img {
         ),
         url('../images/hero/bg-desktop@3x.jpg');
     }
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
   }
 
   .hero-title {
@@ -815,6 +834,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .employees-container {
+    width: 584px;
+  }
+
   .employees-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -824,11 +847,15 @@ img {
   }
 
   .employees-list-item {
-    flex-basis: calc((100% - 2 * 92px - 1 * 24px) / 2);
+    flex-basis: calc((100% - 1 * 24px) / 2);
   }
 }
 
 @media screen and (min-width: 1158px) {
+  .employees-container {
+    width: 1158px;
+  }
+
   .employees-list {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -883,16 +910,24 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .customers-container {
+    width: 584px;
+  }
+
   .customers-list {
     column-gap: 24px;
   }
 
   .customers-list-item {
-    flex-basis: calc((100% - 2 * 92px - 2 * 24px) / 3);
+    flex-basis: calc((100% - 2 * 24px) / 3);
   }
 }
 
 @media screen and (min-width: 1158px) {
+  .customers-container {
+    width: 1158px;
+  }
+
   .customers-list {
     flex-wrap: nowrap;
   }
@@ -1066,8 +1101,7 @@ img {
     justify-content: flex-start;
     align-items: baseline;
     column-gap: 24px;
-
-    padding-left: 108px;
+    width: 584px;
   }
 
   .footer-logo {
@@ -1106,7 +1140,7 @@ img {
   .footer-container {
     flex-wrap: nowrap;
     gap: 0;
-    padding-left: 0;
+    width: 1158px;
   }
 
   .footer-logo {
@@ -1133,6 +1167,7 @@ img {
   height: 100%;
 
   background-color: rgba(46, 47, 66, 0.4);
+  overflow: scroll;
   opacity: 1;
   visibility: visible;
 
@@ -1159,6 +1194,18 @@ img {
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-duration) var(--transition-timing-func);
+}
+
+@media screen and (max-width: 392px) {
+  .modal {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 740px) {
+  .modal {
+    top: 370px;
+  }
 }
 
 .backdrop.is-hidden .modal {
@@ -1374,3 +1421,44 @@ img {
     padding-left: 24px;
   }
 }
+
+/* 
+// portfolio.html
+*/
+
+.portfolio {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 16px;
+  margin-bottom: 48px;
+}
+
+.button.filter {
+  padding: 8px 16px;
+  color: var(--accent-color);
+  background-color: var(--secondary-bg-color);
+  border: 1px solid #e7e9fc;
+
+  transition: color var(--transition-duration) var(--transition-timing-func),
+    background-color var(--transition-duration) var(--transition-timing-func),
+    border-color var(--transition-duration) var(--transition-timing-func),
+    box-shadow var(--transition-duration) var(--transition-timing-func);
+}
+
+.filter-list .button:hover,
+.filter-list .button:focus {
+  color: var(--hero-text-color);
+  background-color: var(--active-color);
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Portfolio Projects */
