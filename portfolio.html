@@ -169,24 +169,46 @@
           <!-- FILTER -->
           <ul class="filter-list list">
             <li>
-              <button class="button filter" type="button">All</button>
+              <button class="button filter" type="button" data-category="All">
+                All
+              </button>
             </li>
             <li>
-              <button class="button filter" type="button">Web Site</button>
+              <button
+                class="button filter"
+                type="button"
+                data-category="Web Site"
+              >
+                Web Site
+              </button>
             </li>
             <li>
-              <button class="button filter" type="button">App</button>
+              <button class="button filter" type="button" data-category="App">
+                App
+              </button>
             </li>
             <li>
-              <button class="button filter" type="button">Design</button>
+              <button
+                class="button filter"
+                type="button"
+                data-category="Design"
+              >
+                Design
+              </button>
             </li>
             <li>
-              <button class="button filter" type="button">Marketing</button>
+              <button
+                class="button filter"
+                type="button"
+                data-category="Marketing"
+              >
+                Marketing
+              </button>
             </li>
           </ul>
           <!-- PROJECTS -->
           <ul class="projects-list list">
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="App">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -264,7 +286,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="Marketing">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -342,7 +364,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="App">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -420,7 +442,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="Marketing">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -498,7 +520,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="Design">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -576,7 +598,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="Marketing">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -654,7 +676,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="Design">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -732,7 +754,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="Web Site">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -810,7 +832,7 @@
                 </div>
               </a>
             </li>
-            <li class="projects-list-item">
+            <li class="projects-list-item" data-category="Web Site">
               <a class="project-link link" href="#">
                 <div class="project-photo-wrapper">
                   <picture>
@@ -986,5 +1008,6 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/mobile-menu.js"></script>
+    <script type="module" src="./js/filter-projects.js"></script>
   </body>
 </html>

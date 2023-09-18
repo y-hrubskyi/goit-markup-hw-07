@@ -1200,9 +1200,9 @@ img {
   }
 }
 
-@media screen and (max-height: 740px) {
+@media screen and (max-height: 610px) {
   .modal {
-    top: 370px;
+    top: 300px;
   }
 }
 
