@@ -1,0 +1,416 @@
+[
+  {
+    "category": "App",
+    "name": "Banking App Interface Concept",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-1-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-1-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-1-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-1-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-1-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-1-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-1-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-1-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-1-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-1-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-1-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-1-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-1-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-1-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-1-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-1-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-1-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-1-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-1-mobile.jpg",
+      "alt": "Banking App Interface Concept",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "Marketing",
+    "name": "Cashless Payment",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-2-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-2-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-2-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-2-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-2-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-2-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-2-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-2-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-2-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-2-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-2-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-2-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-2-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-2-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-2-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-2-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-2-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-2-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-2-mobile.jpg",
+      "alt": "Cashless Payment",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "App",
+    "name": "Meditation App",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-3-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-3-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-3-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-3-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-3-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-3-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-3-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-3-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-3-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-3-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-3-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-3-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-3-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-3-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-3-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-3-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-3-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-3-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-3-mobile.jpg",
+      "alt": "Meditation App",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "Marketing",
+    "name": "Taxi Service",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-4-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-4-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-4-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-4-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-4-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-4-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-4-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-4-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-4-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-4-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-4-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-4-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-4-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-4-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-4-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-4-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-4-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-4-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-4-mobile.jpg",
+      "alt": "Taxi Service",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "Design",
+    "name": "Screen Illustrations",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-5-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-5-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-5-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-5-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-5-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-5-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-5-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-5-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-5-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-5-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-5-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-5-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-5-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-5-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-5-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-5-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-5-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-5-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-5-mobile.jpg",
+      "alt": "Screen Illustrations",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "Marketing",
+    "name": "Online Courses",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-6-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-6-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-6-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-6-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-6-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-6-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-6-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-6-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-6-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-6-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-6-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-6-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-6-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-6-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-6-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-6-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-6-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-6-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-6-mobile.jpg",
+      "alt": "Online Courses",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "Design",
+    "name": "Instagram Stories Concept",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-7-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-7-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-7-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-7-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-7-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-7-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-7-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-7-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-7-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-7-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-7-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-7-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-7-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-7-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-7-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-7-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-7-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-7-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-7-mobile.jpg",
+      "alt": "Instagram Stories Concept",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "Web Site",
+    "name": "Organic Food",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-8-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-8-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-8-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-8-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-8-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-8-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-8-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-8-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-8-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-8-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-8-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-8-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-8-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-8-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-8-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-8-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-8-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-8-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "./images/portfolio/mobile/img-8-mobile.jpg",
+      "alt": "Organic Food",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  },
+  {
+    "category": "Web Site",
+    "name": "Fresh Coffee",
+    "link": "#",
+    "images": {
+      "desktop": {
+        "webp": {
+          "1x": "./images/portfolio/desktop/img-9-desktop.webp",
+          "2x": "./images/portfolio/desktop/img-9-desktop@2x.webp",
+          "3x": "./images/portfolio/desktop/img-9-desktop@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/desktop/img-9-desktop.jpg",
+          "2x": "./images/portfolio/desktop/img-9-desktop@2x.jpg",
+          "3x": "./images/portfolio/desktop/img-9-desktop@3x.jpg"
+        }
+      },
+      "tablet": {
+        "webp": {
+          "1x": "./images/portfolio/tablet/img-9-tablet.webp",
+          "2x": "./images/portfolio/tablet/img-9-tablet@2x.webp",
+          "3x": "./images/portfolio/tablet/img-9-tablet@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/tablet/img-9-tablet.jpg",
+          "2x": "./images/portfolio/tablet/img-9-tablet@2x.jpg",
+          "3x": "./images/portfolio/tablet/img-9-tablet@3x.jpg"
+        }
+      },
+      "mobile": {
+        "webp": {
+          "1x": "./images/portfolio/mobile/img-9-mobile.webp",
+          "2x": "./images/portfolio/mobile/img-9-mobile@2x.webp",
+          "3x": "./images/portfolio/mobile/img-9-mobile@3x.webp"
+        },
+        "jpeg": {
+          "1x": "./images/portfolio/mobile/img-9-mobile.jpg",
+          "2x": "./images/portfolio/mobile/img-9-mobile@2x.jpg",
+          "3x": "./images/portfolio/mobile/img-9-mobile@3x.jpg"
+        }
+      },
+      "defaultImg": "",
+      "alt": "Fresh Coffee",
+      "overlay": "14 Stylish and User-Friendly App Design Concepts · Task Manager App ·\n Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App"
+    }
+  }
+]
