@@ -61,7 +61,6 @@ function showProjectsByCategory(category) {
 
 // function createProjectItemMarkup({ category, name, link, images }) {
 //   return `
-//   <!--* template -->
 // <li class="projects-list-item" data-category="${category}">
 //   <a class="project-link link" href="${link}">
 //     <div class="project-photo-wrapper">
