@@ -21,6 +21,9 @@ body {
   font-family: var(--primary-font-family);
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 /* 
@@ -168,6 +171,7 @@ img {
 /* Header */
 
 .page-header {
+  align-self: start;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -938,6 +942,7 @@ img {
 /* Footer */
 
 .footer {
+  align-self: end;
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: var(--hero-and-footer-bg-color);

@@ -60,7 +60,6 @@ function onFilterBtnsListClick(event) {
     }
   }
 
-  console.log(filteredCategories);
   showProjectsByCategory(filteredCategories);
 }
 
@@ -141,7 +140,6 @@ function showProjectsByCategory(filteredCategories) {
 //     }
 //   }
 
-//   console.log(filteredCategories);
 //   filterProjectsByCategories(filteredCategories);
 // }
 
@@ -154,7 +152,6 @@ function showProjectsByCategory(filteredCategories) {
 //   const filteredProjects = projects.filter(project =>
 //     filteredCategories.includes(project.category)
 //   );
-//   console.log(filteredCategories);
 //   renderProjects(filteredProjects);
 // }
 
